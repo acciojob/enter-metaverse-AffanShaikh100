@@ -5,6 +5,6 @@ let text = document.getElementById("status");
 	text.remove();
 	 let heading = document.createElement("h1");
 	 heading.innerText ="Entered Metaverse";
-	 document.body.appendChild(heading);
+	 document.body.insertBefore(heading, button);
  }
 button.addEventListener("click",remove);
